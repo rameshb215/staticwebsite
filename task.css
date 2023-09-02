@@ -1,1 +1,401 @@
+.img{
+    height: 65vh;
+    border-radius: 10px;
+}
+.img:hover{
+    
+}
+.card{
+    background-color: antiquewhite;
+    height: 40vh;
+    width: 320px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+.img2{
+    height: 22vh;
+    width: 230px;
+    border-radius: 20px;
+    margin-left: 50px;
+    padding: 15px;
+    box-shadow: 10px 10px 10px black;
+}
+.h1{
+    font-size: 25px;
+    font-family: "roboto";
+    font-weight: 600;
+    margin: 20px;
+    text-align: center;
+}
+.para{
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+h1:hover{
+    color: chocolate;
+}
+.para:hover{
+    color: rgb(80, 14, 154);
+}
+.para2{
+    font-family: cursive;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin: 20px;
+}
+.para3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.li{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.img44{
+    margin-left:200px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px black;
 
+}
+.img4{
+    margin-left: 0px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px black;
+    margin: 20px;
+
+}
+.img44:hover{
+    box-shadow: 10px 10px 10px rgb(28, 196, 211);
+    border-style: groove;
+    border-color: tomato;
+    border-top-color: navy;
+}
+.img4:hover{
+    box-shadow: 10px 10px 10px rgb(28, 196, 211);
+    border-style: groove;
+    border-color: tomato;
+    border-top-color: navy;
+}
+.para5{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    margin: 20px;
+    text-decoration: none;
+}
+.para5:hover{
+    color: orangered;
+}
+hr{
+    width: 100%;
+    color: green;
+    height: 10px;
+}
+.img6{
+    height: 26vh;
+    width: 180px;
+    border-radius: 50%;
+    border-top-color: green;
+    border-style: groove;
+    border-bottom-color: rgb(220, 33, 241);
+    border-left-color: gold;
+    border-right-color: rgb(236, 232, 9);
+    box-shadow: 1px 1px 1px 1px black;
+}
+.img6:hover{
+    border-top-color: rgb(238, 18, 224);
+    border-bottom-color: rgb(238, 254, 10);
+    border-left-color: rgb(3, 198, 247);
+    border-right-color: rgb(12, 172, 246);
+
+}
+.heading4{
+color: black;
+font-size: 20px;
+font-family: cursive;
+padding: 5px;
+}
+.para9{
+    color: black;
+    font-size: 10px;
+    font-family: "roboto";
+}
+.ts{
+    color: black;
+    font-size: 24px;
+    font-family: cursive;
+    text-shadow: 1px 1px 1px red;
+    margin: 40px;
+    margin-left: 0px;
+    text-decoration: underline;
+}
+.ts:hover{
+    color: rgb(16, 118, 202);
+    text-shadow: 1px 1px 1px rgb(9, 84, 82);
+}
+.tss{
+    color: black;
+    font-size: 24px;
+    font-family: cursive;
+    text-shadow: 1px 1px 1px red;
+    margin: 40px;
+    margin-left: 24px;
+    text-decoration: underline;
+}
+.tss:hover{
+    color: rgb(16, 118, 202);
+    text-shadow: 1px 1px 1px rgb(9, 84, 82);
+}
+.hr{
+    width: 100%;
+    height: 3vh;
+    background-color: orange;
+}
+.cards{
+    height: 20vh;
+    width: 80%;
+    color: whitesmoke;
+    border-radius:10px;
+    box-shadow: 10px 10px 10px black;
+    margin: 20px;
+    text-align: center;
+}
+.cards:hover{
+    box-shadow: 10px 10px 10px green;
+    border-top-style: groove;
+    border-top-color: tomato;
+}
+.hy{
+font-size: 18px;
+font-weight: bold;
+color: black;
+font-family: cursive;
+margin: 10px;
+}
+.bus{
+font-size: 15px;
+color: gray;
+font-family: cursive;
+}
+.fy{
+    font-size: 15px;
+    color: gray;
+    font-family: cursive;
+}
+.fy2{
+    font-size: 15px;
+    color: blue;
+    font-family: cursive;
+}
+.card2{
+    margin: 20px;
+    width: 95%;
+    height: 350px;
+    background-color: olivedrab;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(64, 5, 64);
+    border-radius: 10px;
+}
+.card2:hover{
+    box-shadow:10px 10px 10px  rgb(142, 60, 5);
+}
+.label2{
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: cursive;
+    text-shadow: 1px 1px 1px rebeccapurple;
+    margin-left: 10px;
+    margin: 10px;
+}
+.label{
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: cursive;
+    text-shadow: 1px 1px 1px rebeccapurple;
+    margin-left: 10px;
+    margin: 5px;
+  
+}
+.input{
+    height: 30px;
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+.map{
+    box-shadow: 10px 10px 10px black;
+    border-style: groove;
+    border-color: violet;
+}
+.find{
+    color: black;
+    font-family: cursive;
+    font-size: 19px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px blueviolet;
+    text-decoration: underline;
+}
+.card9{
+    background-color: whitesmoke;
+    border-style: groove;
+    border-color: rgb(174, 169, 169);
+    border-radius: 10px;
+    height: 75px;
+    margin: 10px;
+}
+.heading55{
+    color: black ;
+    font-size: 18px;
+    font-family: cursive;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+.info:hover{
+    color: red;
+
+}
+.card10{
+    background-color: whitesmoke;
+    height: 100px;
+    width: 280px;
+    box-shadow: 10px 10px 10px black;
+    text-align: center;
+}
+.card10:hover{
+    border-top-color: rgb(220, 41, 205);
+    border-bottom-color: rgb(71, 245, 55);
+    border-style: groove;
+}
+.card11{
+    background-color: whitesmoke;
+    height: 100px;
+    width: 800px;
+    box-shadow: 10px 10px 10px black;
+    text-align: center;
+}
+.card11:hover{
+    border-top-color: rgb(220, 33, 241);
+    border-bottom-color: rgb(23, 248, 94);
+    border-style: groove;
+}
+.time{
+font-weight: bold;
+color: black;
+margin: 20px;
+}
+.time2{
+height: 30px;
+width: 40px;
+}
+.hr2{
+    margin-top: 40px;
+        width: 100%;
+        height: 3vh;
+        background-color: rgb(92, 25, 152);
+}
+#view{
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    font-size: 18px;
+    text-decoration: underline;
+    margin: 20px;
+}
+h4{
+    color: black;
+    font-size: 24px;
+    font-family: cursive;
+    margin: 10px;
+    font-weight: bold;
+}
+#p{
+    padding: 10px ;
+    margin-left: 5px;
+}
+#h4{
+    color: black;
+    font-size: 24px;
+    font-family: cursive;
+    margin: 10px;
+    font-weight: bold;
+    padding: 20px;
+}
+.hr3{
+        margin-top: 40px;
+        width: 100%;
+        height: 3vh;
+        background-color: rgb(18, 82, 184);
+}
+#end{
+    color: gray;
+    font-family: "roboto";
+    font-size: 13px;
+    margin-left: 20px;
+}
+h5{
+    padding: 10px;
+}
+.img45{
+    height: 20vh;
+    width: 50px;
+    margin-left: 30px;
+}
+#book{
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: "roboto";
+    font-size: 18px;
+    text-decoration: underline;
+}
+.fo{
+    background-image: linear-gradient(to right, rgb(9, 56, 75) , rgb(161, 94, 195));
+    height: 10vh;
+    width: 100%;
+
+}
+#copy{
+    color: rgb(255, 246, 246);
+    font-size: 15px;
+    font-family: cursive;
+  margin-left: 20px;  
+  padding: 10px;
+}
+.img54{
+    padding: 10px;
+    height: 10vh;
+    width: 60px;
+}
+.img543{
+    margin-left: 350px;
+    padding: 10px;
+    height: 10vh;
+    width: 60px;
+}
+.busstop{
+    color: black;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(62, 5, 62);
+    font-family: cursive;
+}
+.busstop2{
+    color: black;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(62, 5, 62);
+    font-family: cursive;
+    box-shadow: 5px 5px 5px black;
+}
+.busstop2:hover{
+    color: tomato;
+    font-weight: bold;
+    font-family: "roboto";
+}
