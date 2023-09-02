@@ -1,1 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="task2.css">
+    <title>Document</title>
+</head>
+<body>
 
+
+    <style>
+    header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 25px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px  orange;
+}
+
+.para23 {
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 15s infinite;
+}
+.para233 {
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 15s infinite;
+  animation-direction: reverse;
+}
+.para2333 {
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 17s infinite;
+  animation-direction: reverse;
+}
+.para2313 {
+  width: 220px;
+  height: 90px;
+  margin-right: 900px;
+  font-weight: bold;
+  position: relative;
+  animation: mymov 15s infinite;
+  animation-direction: reverse;
+  border-radius: 15px;
+}
+@keyframes mymove {
+  from {left: 50px;}
+  to {left: 1300px;}
+}
+.para2332 {
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  position: relative;
+  animation: mymoves 14s infinite;
+  animation-direction:reverse;
+}
+#para23 {animation-timing-function: ease;}
+
+@keyframes mymoves {
+  from {left: 1400px;}
+  to {left: 0px;}
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1300px;}
+}
+
+.btn{
+    border-style: groove;
+    box-shadow: 10px 10px 10px black;
+    color: whitesmoke;
+    margin: 25px;
+    border-style: hidden;
+    border-top-color: rgb(129, 16, 171);
+}
+.btn:hover{
+    background-color: rgb(96, 32, 141);
+    box-shadow: 10px 10px 10px rgb(75, 34, 157);
+    border-top-style: groove;
+    border-top-color: rgb(231, 223, 234);
+    color: whitesmoke;
+}
+</style>
+
+
+   <div class="container">
+
+    <header>
+        <nav>
+            <ul>
+                <img src="https://upload.wikimedia.org/wikipedia/en/0/05/TSRTC_LOGO.png" alt="" style="height: 7vh; width: 60px; margin-right:100px;">
+                <li><a href="#key">Home</a></li>
+                <li><a href="#ser">App </a></li>
+                <li><a href="#app">Services</a></li>
+                <li><a href="#tsrtc">Timetables</a></li>
+                <li><a href="#pay">Bookings </a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#top">Info </a></li>
+                <li><a id="button"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://etvbharatimages.akamaized.net/etvbharat/prod-images/13-08-2023/1200-675-19253534-thumbnail-16x9-tsrtc-gamyam-app.jpg" class="d-block w-100 img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://newsmeter.in/h-upload/2023/08/12/352307-whatsapp-image-2023-08-12-at-43310-pm.webp" class="d-block w-100 img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.siasat.com/wp-content/uploads/2023/08/tsrtc-gamyam.jpg" class="d-block w-100 img" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container" id="key">
+        <div class="row">
+            <div class="col-4">
+                 <p class="para2">Key Features and Benfits </p>
+                <div class="card">
+                    <img src="https://english.oktelugu.com/wp-content/uploads/2022/04/Bus-Travel-To-Run-Dearer-in-Telangana-768x512.jpg" alt="" class="img2">
+                    <h1 class="h1">Drist Services </h1>
+                    <p class="para">Live Flight Tracking services and Booking a online tickets Drist busses </p>
+                </div>
+            </div>
+            <div class="col-4">
+                <p class="para2">. </p>
+               <div class="card">
+                   <img src="https://india.postsen.com/content/uploads/2023/08/17/a335bb3ec6.jpg" alt="" class="img2">
+                   <h1 class="h1">Citi Bus's </h1>
+                   <p class="para">Live Tracking A citi busses end to end Stop Locate by Nearset Busstop </p>
+               </div>
+           </div>    
+           <div class="col-4">
+            <p class="para2">. </p>
+           <div class="card">
+               <img src="https://images.news18.com/ibnlive/uploads/2018/05/Hyderabad-Bus-Stop-Transformed-With-Airport-like-Experience-1.jpg?impolicy=website&width=0&height=0" alt="" class="img2">
+               <h1 class="h1">Nearst busstop </h1>
+               <p class="para"> Tracking a Busses and including the nearst busstop a to me around 5 KM's </p>
+           </div>
+       </div>
+      </div>
+        </div>
+      </div>
+
+
+ <div id="ser">
+    <h1  class="para2">Simplifying Bus Travel with Technology</h1>
+    <p class="para3">The Telangana State Road Transport Corporation (TSRTC) has taken a significant step towards revolutionizing the bus travel experience for commuters. With the introduction of the “TSRTC Gamyam” bus tracking app, passengers can now enjoy real-time information about bus arrivals and departures, making their journeys more efficient and hassle-free.</p>
+     <ul>
+        <li><span class="li">Enhanced Travel Coordination:</span> TSRTC emphasized that the “TSRTC Gamyam” app goes beyond providing bus schedules. It offers precise information about bus arrivals at stops closest to various destinations, be it homes, businesses, shopping centers, events, or transportation hubs like airports and train stations.</li>
+      <li> <span class="li">User-Friendly Platform:</span> The mobile application is available for free download on the Google Play Store, ensuring easy access for Android users. Additionally, it can also be downloaded directly from TSRTC’s official website.</li>
+    </ul>
+    <p class="para3"> With the launch of the “TSRTC Gamyam” app, the TSRTC is reaffirming its commitment to enhancing the passenger experience by integrating technology into everyday bus travel. This innovative solution not only streamlines travel but also empowers commuters to make well-informed decisions, ultimately making their journeys more efficient and enjoyable.</p>
+<p class="para5"><a href="https://play.google.com/store/games?hl=en&gl=US" class="para5" target="_blank">TSRTC Gayam - Apps on Google playstore</a></p>
+  <img src="https://play-lh.googleusercontent.com/GIOhCqSArTOtavWhslCCCwDriXKpRJo7DAEgb_DQxGwBhWvDTMlaQXrDjSTdfwwuzCs=w526-h296-rw" alt="" class="img44">
+  <img src="https://play-lh.googleusercontent.com/OksdNX8wlRZb5pArcQtvdvHFC0iVXMlCfN8_Av7V4o7gwRkfvJ1sffVEZwU-KbndUC0=w526-h296-rw" alt="" class="img4">
+  <img src="https://play-lh.googleusercontent.com/1IKB7Y8WPuPsFRQ1VZ-dLhrWg4DSuALwPtl_-HNV1Ilv6uoWWooPlyjsp2y6OymKadfn=w526-h296-rw" alt="" class="img4">
+   <img src="https://play-lh.googleusercontent.com/DQHdzrdvlUWiyeWZnnCMzAaGb33NaStdqt8KIdJSSleCXdR9EZcGWRz-Z3Yl3GUkBg=w526-h296-rw" alt="" class="img4"> 
+   <img src="https://play-lh.googleusercontent.com/fji82U3l9rnFxREwcxGRYwMEKXlVEn48iGLsNkxfBpWsDVqqjTeKDPeAtr7rZ18kAZDe=w526-h296-rw" alt="" class="img4">   
+  <br>
+   <a href="#button"><button class="btn btn-info" style="margin-left: 1200px;">Back </button></a>
+</div>
+   
+<hr class="hr">
+<div class="container" id="app">
+    <h1 class="ts">TSRTC  Services </h1>
+    <div class="row">
+        <div class="col-3">
+            <img src="https://telugu.samayam.com/thumb/101822984/palle-velugu-101822984.jpg?imgsize=81876&width=700&height=525&resizemode=75" alt="" class="img6">
+             <h1 class="heading4">Regular Buses</h1>
+             <p class="para9" > TSRTC operates a vast network <br> of regular bus services that connect various cities, <br>
+                towns, and villages within Telangana. These buses are <br>commonly used for daily commuting and local travel</p>
+        </div>
+
+        <div class="col-3">
+            <img src="https://scontent.fhyd14-1.fna.fbcdn.net/v/t1.6435-9/132002614_2940018336284419_7611309967955420308_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=0debeb&_nc_ohc=dOy3nguIUuQAX-0Xj22&_nc_ht=scontent.fhyd14-1.fna&oh=00_AfC5NOTV6eVZWGJu8obPk3ncMYcr_Gs2Cag3KjwWxjC1hQ&oe=65178A52" alt="" class="img6">
+             <h1 class="heading4">Express  Services</h1>
+             <p class="para9" > TSRTC operates inter-state bus services that connec <br>  Telangana with neighboring states, enabling  <br>
+                enabling long-distance travel for passengers.</p>
+        </div>
+
+        <div class="col-3">
+            <img src="https://scontent.fhyd14-2.fna.fbcdn.net/v/t1.6435-9/106903751_2790663167886604_555720824450417028_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=0debeb&_nc_ohc=3npZwczFFdUAX_eEknj&_nc_ht=scontent.fhyd14-2.fna&oh=00_AfD0AEbMWTrKSWXM4PVGBGsVCVnEMc-WQrcsSXXBsLYHpg&oe=65179643" alt="" class="img6">
+             <h1 class="heading4">Luxury Bus services</h1>
+             <p class="para9" > TSRTC offers luxury bus services <br> that provide   higher level of comfort, including  <br> amenities like air conditioning
+                comfortable <br> seating, and sometimes entertainment systems.</p>
+        </div>
+        <div class="col-3">
+            <img src="https://feeds.abplive.com/onecms/images/uploaded-images/2022/07/27/2b458e6f55667fe85964a719aef550b31658891559_original.jpg?impolicy=abp_cdn&imwidth=720" alt="" class="img6">
+             <h1 class="heading4">Garuda Services</h1>
+             <p class="para9" >Garuda is a premium service provided by TSRTC, <br>  offering high levels of comfort and amenities for <br>
+                long-distance travel  These buses are equipped <br> with features like air conditioning commonly used <br> reclining seats, and entertainment systems</p>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-3">
+            <img src="https://scontent.fhyd14-2.fna.fbcdn.net/v/t31.18172-8/24068462_1676340895764808_8371803127231160178_o.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=OsJZWYCRtA4AX8aSSBk&_nc_ht=scontent.fhyd14-2.fna&oh=00_AfAre2zI1MYMkGwGNc_ghzaZx3R0f5i9htDHMjzbTEHTmg&oe=651771F8" alt="" class="img6">
+             <h1 class="heading4">Online Booking</h1>
+             <p class="para9" > TSRTC provides online platforms and<br> mobile apps that allow passengers to   <br>
+                book tickets, check schedules, and<br>track buses in real time.  <br> </p>
+        </div>
+
+        <div class="col-3">
+            <img src="https://1.bp.blogspot.com/-zoqFk8kCEpI/W7XcpDk-dRI/AAAAAAAAYck/pQ-3D-FY3R8z9ZzemHnKGrtH1PizJvcjQCLcBGAs/s1600/43063135_2246706672232251_2086370188978028544_o.jpg" alt="" class="img6">
+             <h1 class="heading4">Semi-Luxury Services</h1>
+             <p class="para9" > These buses offer a more comfortable travel  <br>  experience than regular buses, often with improved  <br>
+                seating arrangements.<br></p>
+        </div>
+        <div class="col-3">
+            <img src="https://etimg.etb2bimg.com/photo/75821991.cms" alt="" class="img6">
+             <h1 class="heading4">Vajra Services</h1>
+             <p class="para9" > Vajra buses are another premium category,  <br>  known for their modern amenities, comfort,<br> and efficiency.
+                They might offer features like air <br> conditioning,  Wi-Fi, and better seating.
+                </p>
+        </div>
+        <div class="col-3">
+            <img src="https://scontent.fhyd14-2.fna.fbcdn.net/v/t1.6435-9/109994306_2808336072785980_7058743560645190575_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=0debeb&_nc_ohc=y8PtPV2pNCAAX90fR1u&_nc_ht=scontent.fhyd14-2.fna&oh=00_AfCUQT0uO6bnuwRBPe2C4kI0Lc4s5IRj2uH-J0RsG1IOPg&oe=65179416" alt="" class="img6">
+             <h1 class="heading4">Cargo Services</h1>
+             <p class="para9" > TSRTC may also offer parcel and cargo<br>  transportation services using its bus network. <br> 
+                <br> </p>
+        </div>
+        
+        <a href="#button"><button class="btn btn-info" style="margin-left: 1200px; width:100px ;">Back </button></a>
+    </div>
+</div>
+
+<hr class="hr">
+<div id="tsrtc">
+    <h1 class="tss">TSRTC Bus Routes & Timings</h1>
+    <img src="./photos/Screenshot (384).png" alt="" class="para23">
+    <img src="./photos/PngItem_810103.png" alt="" class="para233">
+    <img src="./photos/busstop.png" alt="" class="para2313">
+    <center><p class="busstop">- - - - - - - - - - - - - - - - - - - - - - -  Busstop    - - - - - - -  -   -   -   -   -   -    -     -  -   -</p></center>
+    <hr>
+    <img src="./photos/PngItem_68211222.png" alt="" class="para2332">
+    <img src="./photos/kindpng_1619455.png" alt="" class="para2333">
+</div>
+<div class="container">
+    <div class="row"> 
+        <div class="col-6"> 
+       <div class="cards">
+        <h1 class="hy">Hyderabad to Vijayawada</h1>
+        <p class="bus"> 135 bus options</p>
+        <p class="fy">First Bus : 0:20 <span class="fy">Last Bus : 23:59</span> <a href="" class="fy2">Book now </a></p>
+    </div>
+</div>
+<div class="col-6"> 
+    <div class="cards">
+     <h1 class="hy">Karimnagar to Hyderabad</h1>
+     <p class="bus"> 109 bus options</p>
+     <p class="fy">First Bus : 12:20 <span class="fy">Last Bus : 24:59</span> <a href="" class="fy2">Book now </a></p>
+ </div>
+</div>
+</div>
+<div class="row"> 
+    <div class="col-6"> 
+   <div class="cards">
+    <h1 class="hy">Khammam to Hyderabad</h1>
+    <p class="bus"> 125 bus options</p>
+    <p class="fy">First Bus : 1:20 <span class="fy">Last Bus : 20:59</span> <a href="" class="fy2">Book now </a></p>
+</div>
+</div>
+<div class="col-6"> 
+<div class="cards">
+ <h1 class="hy">Hyderabad to Ananthapur </h1>
+ <p class="bus"> 85 bus options</p>
+ <p class="fy">First Bus : 3:45 <span class="fy">Last Bus : 18:30</span> <a href="" class="fy2">Book now </a></p>
+</div>
+</div>
+</div>
+
+
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <p class="find">Search for Buses  </p>
+    <div class="card2">  
+<label for="" class="label2">FROM  ⬅️</label>
+<input type="text" class="input"><br>
+<br>
+<label for="" class="label">TO ➡️   </label>
+<input type="text" class="input"><br>
+<br>
+<label for="" class="label">DATE 📆</label>
+<input type="date" name="" id="" class="input"> <br>
+<br>
+<label for="" class="label" >Choose Citie's  🏢</label> 
+<select name="" id="" class="input">
+    <option value="">Select ypur city</option>
+    <option value="">Vijayawada</option>
+    <option value="">Hyderabad</option>
+    <option value="">Ibrahimpatnam</option>
+    <option value="">Nandigama</option>
+    <option value=""> Khammam</option>
+    <option value="">Kurnool</option>
+    <option value="">Vizag</option>
+</select><br>
+<br>
+<button class="btn btn-info">Search Now</button>
+</div>
+</div>
+<div class="col-6">
+    <div class="car">
+        <p class="find">Find a Location </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243646.90509590553!2d78.24323147688081!3d17.412608642429266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1693466125033!5m2!1sen!2sin" width="600" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map" ></iframe>
+</div>
+</div>
+</div>
+<a href="#button"><button class="btn btn-info" style="margin-left: 1200px;">Back </button></a>
+</div>
+
+<hr class="hr">
+
+<div class="container" id="pay">
+    <div class="row">
+      <div class="col-4">
+        <p class="find">Official Booking Partner </p>
+        <div class="card10">
+            <img src="./photos/headset.png" alt="" class="time2">
+       <p class="time">24*7 customer service(Call & Chat)</p>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <p class="tss"> </p>
+        <div class="card10">
+            <img src="./photos/group.png" alt="" class="time2">
+       <p class="time"><span style="font-weight: bold; color: rgb(228, 10, 10); ">36 Mn+</span> users trust u</p>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <p class="tss"> </p>
+        <div class="card10">
+            <img src="./photos/seat.png" alt="" class="time2">
+       <p class="time">Assured seat of your choice</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-8">
+            <p class="tss"> </p>
+          <div class="card11">
+              <img src="./photos/star.png" alt="" class="time2">
+         <p class="time"><span style="font-weight: bold; color: rgb(228, 10, 10); ">2,00,000+</span>bookings per day
+            World's largest online bus ticket booking platform</p>
+          </div>
+        </div>
+  
+        <div class="col-4">
+          <p class="tss"> </p>
+          <div class="card10">
+              <img src="./photos/credit-card.png" alt="" class="time2">
+         <p class="time"><span style="font-weight: bold; color: rgb(228, 10, 10); ">payments</span> op mastercard, visa, maestro, rupay</p>
+          </div>
+        </div>
+        <a href="#button"><button class="btn btn-info" style="margin-left: 1200px;">⏫</button></a>
+    </div>
+</div>
+
+<hr class="hr2">
+
+<div>
+    <h1 class="tss">FAQs On TSRTC Buses</h1>
+<div class="card9">
+    <h1 class="heading55">What types of buses are offered by TSRTC?</h1>
+    <p style="text-align: end; font-size: 15px; margin-right: 35px; font-weight: bold;" class="info">+</p>
+
+</div>
+
+<div class="card9">
+    <h1 class="heading55">Where can I go with TSRTC buses?</h1>
+    <p style="text-align: end; font-size: 15px; margin-right: 35px; font-weight: bold;" class="info">+</p>
+
+</div>
+
+<div class="card9">
+    <h1 class="heading55">Can I make a TSRTC online booking a few hours before departure?</h1>
+    <p style="text-align: end; font-size: 15px; margin-right: 35px; font-weight: bold;" class="info">+</p>
+
+</div>
+</div>
+</div>
+
+
+
+<div id="about">
+    <center><h1 id="view">ViewMore</h1></center>
+    <h4>TSRTC Online Reservation</h4>
+    <p id="p">TSRTC is popular due to its adequate, safe and on-time bus services. Several types of buses run by TSRTC help in connecting different routes. TSRTC proficiently strives in maintaining its quality and delivering an affordable bus travel experience in the long run.</p>
+    <h4>How to book TSRTC Online Bus Tickets on redBus?</h4>
+    <p id="p">Bus tickets for the Telangana State Road Transport Corporation (TSRTC) can be booked online through redBus. To book a TSRTC bus ticket online is as easy as following these instructions. </p>
+    <ul>
+        <li>Enter your source city and destination, and date of travel.</li>
+        <li>Choose TSRTC buses as an operator, you can choose the type of bus you want to travel.</li>
+        <li>Apply the bus type filters based on your preference, like AC/ NON AC, Sleeper, Seater, High rated bus, Early morning and late night buses. Once you selected your prefered TSRTC bus</li>
+        <li>Select the TSRTC boarding point and dropping point.</li>
+        <li>Select the seat layout; you can also book the ladies' seat on the TSRTC bus</li>
+        <li>Provide your contact details like email ID, Phone Number and co-passenger details if you travel in a group.</li>
+        <li>redBus provide multiple payments options for the users to book the TSRTC bus tickets. A user can choose UPI options like PhonePe, Google Pay, Paytm UPI, Credit/Debits/ATM Cards, Netbanking, walletslike Paytm, OlaMoney Postpaid+, Amazon Pay. redbus also provide pay later option if you are Simpl user.</li>
+        <li>Once you made the payment using the above payment options your ticket is booked. <br>
+            Many people prefer to book TSRTC online bus tickets through redBus for a pleasant and trouble-free journey. You can reserve your preferred seat on a TSRTC bus by using the redBus website or mobile application. TSRTC advance bus reservations are also accessible on redBus. TSRTC provides advance bus ticket booking, which allows you to book your bus ticket up to 30 days before your trip. To minimise last-minute problems at bus stations, one can pre-book TSRTC bus tickets through redBus. </li>    
+    </ul>
+</div>
+
+ <div>
+    <h4 id="h4">Types of TSRTC Buses</h4>
+    <p id="p">In total, TSRTC operates buses on around 36,593 routes. However, not all routes are serviced by TSRTC daily. Some of these TSRTC routes are small-length, while others are inter-state routes. One can view the availability of TSRTC coaches on any road with redBus. Complete TSRTC route information is offered by redBus to individuals. TSRTC has many depots and bus stops that help them cover more routes efficiently. In addition, its massive fleet of more than 9,000 coaches can cover many routes.</p>
+    <p id="p">Travellers who make a TSRTC online booking on redBus tend to choose from the following popular routes commonly:</p>
+    <ul>
+        <li><span style="color: red; font-weight: bold;">Hyderabad to Karimnagar </span>:The distance between Hyderabad and Karimnagar in Telangana is an average of 170 kilometres (105 miles). It typically takes between 2 and 4.5 hours to cover by road depending on the traffic and road conditions.</li>
+        <li><span style="color: red; font-weight: bold;">Bengaluru to Hyderabad </span>:The distance between these two cities is a minimum of 560 kilometres (348 miles), depending on your bus route. It can take between 8 and 14 hours to make the journey by bus.</li>
+        <li><span style="color: red; font-weight: bold;">Vijayawada to Hyderabad</span>:The most common route that connects these cities is 275 kilometres (171 miles) long and will take at least 4.5 hours to cover by road.</li>
+    </ul>
+    <p id="p">Following are some of the other popular routes for TSRTC buses:</p>
+    <ul>
+        <li>Khammam to Bengaluru</li>
+        <li>Hyderabad to Adilabad</li>
+        <li>Hyderabad to Mumbai</li>
+        <li>Hyderabad to Vijayawada</li>
+        <li>Nizamabad to Bengaluru</li>
+        <li>Hyderabad to Warangal</li>
+        <li>Hyderabad to Chennai</li>
+        <li>Hyderabad to Pune</li>
+        <li>Hyderabad to Nagpur</li>
+    </ul>
+ </div>
+<div>
+    <h4 id="h4">How to Book a TSRTC Bus Ticket with redBus?</h4>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6FWkGNmEi-A" style="width:600px; height: 440px; margin-left: 400px;" allowfullscreen></iframe>
+      </div>
+      <a href="#button"><button class="btn btn-info" style="margin-left: 1200px;">⏫</button></a>
+</div>
+<hr class="hr3">
+
+<div class="container" id="top">
+    <div class="row">
+        <div class="col-3">
+            <h5>Top Bus Routes</h5>
+            <p id="end">Bangalore to Chennai Bus</p>
+            <p id="end">Hyderabad to Bangalore Bus</p>
+            <p id="end">Pune to Bangalore Bus</p>
+            <p id="end">Mumbai to Bangalore Bus</p>            
+            <p id="end">More >>></p>            
+        </div>
+
+        <div class="col-3">
+            <h5>Top Cities</h5>
+            <p id="end">Hyderabad Bus Tickets</p>
+            <p id="end">Bangalore Bus Tickets</p>
+            <p id="end">Chennai Bus Tickets</p>
+            <p id="end">Pune Bus Tickets</p>            
+            <p id="end">More >>></p>            
+        </div>
+
+
+        <div class="col-3">
+            <h5>Top RTC's</h5>
+            <p id="end">APSRTC</p>
+            <p id="end">GSRTC</p>
+            <p id="end">MSRTC</p>
+            <p id="end">TNSTC</p>            
+            <p id="end">More >>></p>            
+        </div>
+
+        <div class="col-3">
+            <h5>Top RTC Bus Types</h5>
+            <p id="end">Shivshahi Bus</p>
+            <p id="end">Shivneri Bus</p>
+            <p id="end">Amaravathi Bus</p>
+            <p id="end">Indra Bus</p>            
+            <p id="end">Garuda Bus</p>            
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-2">
+                <h5>Top Operators</h5>
+                <p id="end">No 1 Air Travels</p>
+                <p id="end">YBM <br>Travels(BLM)</p>
+                <p id="end">Sri SMS Travels</p>
+                <p id="end">Svkdt travels</p>            
+                <p id="end">RKT Tours and <br> Travels</p>   
+                <p id="end">City Travels</p>         
+            </div>
+    
+            <div class="col-2">
+                <h5>.</h5>
+                <p id="end">City Land Travels</p>
+                <p id="end">RKK Travels</p>
+                <p id="end">(SBLT) Shri Bhagiyalakshimi <br> Travels (MAARA)</p>
+                <p id="end">Essaar</p>            
+                <p id="end">Krish Travels</p>   
+                <p id="end">Chalo Bus (Sutra Sewa)</p>         
+            </div>
+            <div class="col-2">
+                <h5>.</h5>
+                <p id="end">Laxmi holidays</p>
+                <p id="end">Orange Tours And <br> Travels</p>
+                <p id="end">Parveen Travels</p>
+                <p id="end">Konduskar Travels <br> Pvt. Ltd</p>            
+                <p id="end">Sri Krishna Travels</p>   
+                <p id="end">A1 Travels</p>           
+            </div>
+            <div class="col-2">
+                <h5>.</h5>
+                <p id="end">MRS Travels</p>
+                <p id="end">SRS Travels</p>
+                <p id="end">Rathimeena Travels <br> B</p>
+                <p id="end">NueGo</p>            
+                <p id="end">Sugama Tourist</p>   
+                <p id="end">Go Tour Travels and <br>Holidays</p>            
+            </div>
+            <div class="col-2">
+                <h5>.</h5>
+                <p id="end">zingbus</p>
+                <p id="end">Yolo Bus</p>
+                <p id="end">Shyamoli <br> Paribahan Pvt Ltd</p>
+                <p id="end">Morning <br> Star Travels</p>            
+                <p id="end">IntrCity SmartBus</p>   
+                <p id="end">Sri Krishna Travels</p>               
+            </div>
+            <div class="col-2">
+                <h5>.</h5>
+                <p id="end">VRL Travels</p>
+                <p id="end">Chartered Bus</p>
+                <p id="end">GreenLine Travels And <br> Holidays</p>
+                <p id="end">Neeta tours and <br> travels</p>            
+                <p id="end">Bharathi Travels</p>   
+                <p id="end">Raj Ratan Tours  And <br>Travels</p>            
+            </div>
+        </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <img src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" alt="" class="img45">
+            <p id="end">
+                redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes in India.</p>        
+        </div>
+
+        <div class="col-2">
+            <h5 id="book">Book </h5>
+            <p id="end">Bus Tickets</p>
+            <p id="end">Bus Hire</p>
+            <p id="end">Tempo Traveller</p>
+            <p id="end">Train Tickets</p>            
+            <p id="end">Cab Booking</p>            
+        </div>
+
+        <div class="col-2">
+            <h5 id="book">About redBus </h5>
+            <p id="end">About Us</p>
+            <p id="end">Contact us</p>
+            <p id="end">Mobile Version</p>
+            <p id="end">Agent Registration</p>            
+            <p id="end">Careers</p>          
+        </div>
+
+        <div class="col-2">
+            <h5 id="book"> Traveller Tools</h5>
+            <p id="end">Track My Bus</p>
+            <p id="end">Cancellation</p>
+            <p id="end">Print E Ticket</p>
+            <p id="end">FAQ</p>            
+            <p id="end">Sitemap</p>          
+            <p id="end">Offers</p>          
+            <p id="end">Blogs</p>          
+        </div>
+
+        <div class="col-2">
+            <h5 id="book"> Legal</h5>
+            <p id="end">Terms & Conditions</p>
+            <p id="end">Privacy Policy</p>
+            <p id="end">Cookie Policy</p>      
+        </div>
+        <a href="#button"><button class="btn btn-info" style="margin-left: 1200px;">⏫</button></a>
+        <img src="./photos/Screenshot (384).png" alt="" class="para23">
+        <img src="./photos/kindpng_1619455.png" alt="" class="para233">
+        <hr>
+        <center><p class="busstop2">Book Now </p></center>
+
+</div>
+ <hr class="hr2">
+ <footer class="fo">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <p id="copy">Ⓒ 2023 Redbus India Private Limited (formerly known as ‘Ibibo Group Private Limited’)</p>
+            </div>
+            <div class="col-6">
+                <img src="./photos/facebook (1).png" alt="" class="img543">
+                <img src="./photos/instagram.png" alt="" class="img54">
+                <img src="./photos/twitter.png" alt="" class="img54">
+                <img src="./photos/youtube (1).png" alt="" class="img54">
+            </div>
+        </div>
+    </div>
+ </footer>
+ <div>
+    <a href="#button"><button class="btn btn-info">Back To Home</button></a>
+ </div>
+   </div>
+</body>
+</html>
